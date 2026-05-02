@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Attrition Prediction</title>
+</head>
+<body>
+    <h1>Employee Attrition Prediction</h1>
+    <form action="/predict" method="post">
+        <!-- Update form fields to match the names used in the Flask application -->
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age"><br><br>
+
+        <label for="BusinessTravel">BusinessTravel:</label>
+        <input type="text" id="BusinessTravel" name="BusinessTravel"><br><br>
+
+        <label for="DailyRate">DailyRate:</label>
+        <input type="number" id="DailyRate" name="DailyRate"><br><br>
+
+        <label for="Department">Department:</label>
+        <input type="text" id="Department" name="Department"><br><br>
+
+        <label for="DistanceFromHome">DistanceFromHome:</label>
+        <input type="number" id="DistanceFromHome" name="DistanceFromHome"><br><br>
+
+        <label for="Education">Education:</label>
+        <input type="text" id="Education" name="Education"><br><br>
+
+        <label for="EducationField">EducationField:</label>
+        <input type="text" id="EducationField" name="EducationField"><br><br>
+
+        <label for="EnvironmentSatisfaction">EnvironmentSatisfaction:</label>
+        <input type="text" id="EnvironmentSatisfaction" name="EnvironmentSatisfaction"><br><br>
+
+        <label for="Gender">Gender:</label>
+        <input type="text" id="Gender" name="Gender"><br><br>
+
+        <label for="HourlyRate">HourlyRate:</label>
+        <input type="number" id="HourlyRate" name="HourlyRate"><br><br>
+
+        <label for="JobInvolvement">JobInvolvement:</label>
+        <input type="text" id="JobInvolvement" name="JobInvolvement"><br><br>
+
+        <label for="JobLevel">JobLevel:</label>
+        <input type="text" id="JobLevel" name="JobLevel"><br><br>
+
+        <label for="JobRole">JobRole:</label>
+        <input type="text" id="JobRole" name="JobRole"><br><br>
+
+        <label for="JobSatisfaction">JobSatisfaction:</label>
+        <input type="text" id="JobSatisfaction" name="JobSatisfaction"><br><br>
+
+        <label for="MaritalStatus">MaritalStatus:</label>
+        <input type="text" id="MaritalStatus" name="MaritalStatus"><br><br>
+
+        <label for="MonthlyIncome">MonthlyIncome:</label>
+        <input type="number" id="MonthlyIncome" name="MonthlyIncome"><br><br>
+
+        <label for="MonthlyRate">MonthlyRate:</label>
+        <input type="number" id="MonthlyRate" name="MonthlyRate"><br><br>
+
+        <label for="NumCompaniesWorked">NumCompaniesWorked:</label>
+        <input type="number" id="NumCompaniesWorked" name="NumCompaniesWorked"><br><br>
+
+        <label for="OverTime">OverTime:</label>
+        <input type="text" id="OverTime" name="OverTime"><br><br>
+
+        <label for="PercentSalaryHike">PercentSalaryHike:</label>
+        <input type="number" id="PercentSalaryHike" name="PercentSalaryHike"><br><br>
+
+        <label for="PerformanceRating">PerformanceRating:</label>
+        <input type="text" id="PerformanceRating" name="PerformanceRating"><br><br>
+
+        <label for="RelationshipSatisfaction">RelationshipSatisfaction:</label>
+        <input type="text" id="RelationshipSatisfaction" name="RelationshipSatisfaction"><br><br>
+
+        <label for="StockOptionLevel">StockOptionLevel:</label>
+        <input type="number" id="StockOptionLevel" name="StockOptionLevel"><br><br>
+
+        <label for="TotalWorkingYears">TotalWorkingYears:</label>
+        <input type="number" id="TotalWorkingYears" name="TotalWorkingYears"><br><br>
+
+        <label for="TrainingTimesLastYear">TrainingTimesLastYear:</label>
+        <input type="number" id="TrainingTimesLastYear" name="TrainingTimesLastYear"><br><br>
+
+        <label for="WorkLifeBalance">WorkLifeBalance:</label>
+        <input type="text" id="WorkLifeBalance" name="WorkLifeBalance"><br><br>
+
+        <label for="YearsAtCompany">YearsAtCompany:</label>
+        <input type="number" id="YearsAtCompany" name="YearsAtCompany"><br><br>
+
+        <label for="YearsInCurrentRole">YearsInCurrentRole:</label>
+        <input type="number" id="YearsInCurrentRole" name="YearsInCurrentRole"><br><br>
+
+        <label for="YearsSinceLastPromotion">YearsSinceLastPromotion:</label>
+        <input type="number" id="YearsSinceLastPromotion" name="YearsSinceLastPromotion"><br><br>
+
+        <label for="YearsWithCurrManager">YearsWithCurrManager:</label>
+        <input type="number" id="YearsWithCurrManager" name="YearsWithCurrManager"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
